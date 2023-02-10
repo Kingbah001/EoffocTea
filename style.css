@@ -102,6 +102,7 @@ body{
     /* border: 3px solid tomato; */
     margin: 50px 0 80px 0;
     padding: 15px 60px;
+    cursor: pointer;
     background: #2E1D03;
     color: #fff;
     font-weight: 500;
@@ -149,6 +150,7 @@ body{
 .best-button {
     background: #2E1D03;
     border: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -315,6 +317,7 @@ span{
 .about-button{
     padding: 10px 30px;
     gap: 10px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,4 +451,215 @@ span{
     font-size: 16px;
     line-height: 200%;
     color: #03011C;
+}
+/* About us section ends */
+
+/* Scooter section starts */
+
+.scooter-header{
+    padding: 40px 0;
+}
+.scooter-header h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    color: #2E1D03;
+    text-align: center;
+}
+.scooter-topic{
+    /* border: 3px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scooter-topic p{
+    /* border: 3px solid black; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.3em;
+    color: #2E1D03;
+    margin-left: 10px;
+}
+.blog-content{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    width: 95%;
+    margin: 0 auto 50px auto;
+}
+.blog-card{
+    /* border: 3px solid tomato; */
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    transition: all 0.7s ease;
+}
+.blog-card:hover{
+    background: #FFFFFF;
+}
+.blog-pics{
+    /* border: 3px solid green; */
+    background: #FFFFFF;
+    width: 326.54px;
+    height: 200px;
+    overflow: hidden;
+}
+.blog-writeup{
+    /* border: 3px solid navy; */
+    margin: 15px 0 0 0;
+}
+.blog-writeup h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #2E1D03;
+}
+.blog-writeup p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #2E1D03;
+}
+.blog-button{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    background: transparent;
+    color: #2E1D03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #2E1D03;
+    transition: all 0.7s ease;
+}
+.blog-button:hover{
+    background: #2E1D03;
+    color: #FAF3DD;
+}
+.blog-button p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    /* color: #2E1D03; */
+    margin-right: 10px;
+}
+.blog-button i{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #2E1D03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+/* Scooter section ends */
+
+/* Quick section starts */
+.QuickTour{
+    /* border: 3px solid black; */
+    background: url(./images/coffee\ patter\ 1.png);
+}
+.quicktour-content{
+    /* border: 3px solid tomato; */
+    /* height: 400px; */
+    width: 90%;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-content{
+    /* border: 3px solid green; */
+    width: 45%;
+    padding: 100px;
+
+}
+.content{
+    /* border: 3px solid yellow; */
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+
+}
+.list{
+    /* border: 3px solid navy; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.list h4{
+    color: #2E1D03;
+    font-weight: 550;
+    font-size: 22px;
+    line-height: 36px;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+.list span{
+    color: #2E1D03;
+    margin: 7px 0;
+
+}
+.right-content{
+    /* border: 3px solid blue; */
+    text-align: right;
+    padding: 100px;
+}
+.right-content h3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    color: #2E1D03;
+}
+.right-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #2E1D03;
+    margin: 60px 0;
+}
+.quicktour-content button{
+    background: #2E1D03;
+    color: #FAF3DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 40px;
+    gap: 10px;
+    width: 183px;
+    height: 62px;
+    border: none;
+}
+.quicktour-content button i{
+    border: 2px solid #FAF3DD;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quicktour-content button p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #FAF3DD;
+}
+.footer{
+    /* border: 3px solid yellow; */
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
 }
