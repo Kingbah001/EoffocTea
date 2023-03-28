@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #FAF3DD;
     font-family: sans-serif;
 }
 
 /* hero section starts */
-.hero{
+.hero {
     /* border: 3px solid tomato; */
     background: url(./images/coffee\ latter\ 1Coffee\ latter.png);
     width: 93%;
@@ -20,27 +20,30 @@ body{
     background-position: right;
 }
 
-.menu{
+.menu {
     /* border: 3px solid black; */
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
 }
 
-.logo{
+.logo {
     /* border: 3px solid yellow; */
     margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo-text{
+
+.logo-text {
     font-weight: 600;
     font-size: 24px;
+    margin-left: 7px;
     /* border: 3px solid black; */
     color: #2E1D03;
 }
-.menu-content ul{
+
+.menu-content ul {
     /* border: 3px solid blue; */
     display: flex;
     align-items: center;
@@ -53,7 +56,8 @@ body{
     /* width: 500px; */
     /* height: 200px; */
 }
-.menu-content ul a{
+
+.menu-content ul a {
     /* border: 3px solid tomato; */
     text-decoration: none;
     display: flex;
@@ -69,7 +73,8 @@ body{
     transition: all 0.5s ease;
     color: #817B74;
 }
-.menu-content ul a:hover{
+
+.menu-content ul a:hover {
     color: #2E1D03;
     font-weight: 500;
     font-size: 24px;
@@ -78,12 +83,13 @@ body{
     line-height: 36px;
 }
 
-.hero-content{
+.hero-content {
     /* border: 3px solid green; */
     width: 50%;
     margin-top: 200px;
 }
-.hero-content h2{
+
+.hero-content h2 {
     color: #817B74;
     font-weight: 600;
     font-size: 100px;
@@ -91,14 +97,15 @@ body{
     margin-bottom: 150px;
     text-shadow: 0px -100px 0px rgba(0, 0, 0, 0.05), 0px 100px 0px rgba(0, 0, 0, 0.02);
 }
-.hero-content p{
+
+.hero-content p {
     font-weight: 400;
     font-size: 20px;
     line-height: 200%;
     color: #2E1D03;
 }
 
-.hero-button{
+.hero-button {
     /* border: 3px solid tomato; */
     margin: 50px 0 80px 0;
     padding: 15px 60px;
@@ -117,7 +124,8 @@ body{
     transition: all 0.7s ease;
     border-radius: 10px;
 }
-.hero-button i{
+
+.hero-button i {
     border: 2px solid #FAF3DD;
     width: 35px;
     display: flex;
@@ -126,17 +134,20 @@ body{
     height: 35px;
     border-radius: 50%;
 }
-.hero-button:hover{
+
+.hero-button:hover {
     border: 2px solid #2E1D03;
     background: transparent;
     color: #2E1D03;
 }
-.best{
+
+.best {
     /* border: 3px solid black; */
     background: url(./images/coffee\ patter\ 1.png);
-    padding: 30px 0; 
+    padding: 30px 0;
 }
-.best-container{
+
+.best-container {
     /* border: 3px solid tomato; */
     width: 95%;
     justify-content: space-between;
@@ -147,6 +158,7 @@ body{
     backdrop-filter: blur(20px);
     background: #FFFFFD;
 }
+
 .best-button {
     background: #2E1D03;
     border: none;
@@ -156,7 +168,8 @@ body{
     padding: 10px 20px;
     border-radius: 15px;
 }
-span{
+
+span {
     /* border: 2px solid yellow; */
     font-weight: 500;
     font-size: 16px;
@@ -164,7 +177,8 @@ span{
     color: #FFFFFF;
     margin-right: 10px;
 }
-.best-button i{
+
+.best-button i {
     border: 2px solid #FAF3DD;
     color: #FFFFFF;
     width: 35px;
@@ -174,16 +188,19 @@ span{
     height: 35px;
     border-radius: 50%;
 }
-.left-best-container{
+
+.left-best-container {
     margin-top: 50px;
 }
-.left-best-container h3{
+
+.left-best-container h3 {
     font-weight: 600;
     color: #2E1D03;
     font-size: 36px;
     line-height: 140%;
 }
-.left-best-container p{
+
+.left-best-container p {
     font-weight: 300;
     margin-bottom: 45px;
     color: #2E1D03;
@@ -191,11 +208,13 @@ span{
     letter-spacing: 0.2em;
     line-height: 24px;
 }
-.right-best-container{
+
+.right-best-container {
     /* border: 3px solid tomato; */
     display: flex;
 }
-.food-card{
+
+.food-card {
     /* border: 3px solid purple; */
     display: flex;
     flex-direction: column;
@@ -205,25 +224,29 @@ span{
     border-radius: 15px;
     overflow: hidden;
 }
-.imageholder{
+
+.imageholder {
     /* border: 3px solid black; */
     padding: 15px;
     margin-bottom: 10px;
     border-top: 10px;
     overflow: hidden;
 }
-.priceholder{
+
+.priceholder {
     /* border: 3px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.price{
+
+.price {
     /* border: 3px solid yellow; */
     display: flex;
     flex-direction: column;
 }
-.name{
+
+.name {
     /* border: 3px solid green; */
     font-weight: 400;
     font-size: 12px;
@@ -232,7 +255,8 @@ span{
     text-align: center;
     color: #2E1D03;
 }
-.amount{
+
+.amount {
     /* border: 3px solid tomato; */
     font-weight: 600;
     font-size: 16px;
@@ -240,7 +264,8 @@ span{
     text-align: center;
     color: #2E1D03;
 }
-.price-icon{
+
+.price-icon {
     /* border: 3px solid #2E1D03; */
     background: #2E1D03;
     color: #FFFFFF;
@@ -252,15 +277,17 @@ span{
     align-items: center;
     padding: 10px;
 }
-.price-icon i{
+
+.price-icon i {
     width: 14px;
     height: 14px;
 }
+
 /* hero section ends */
 
 /* About us section starts */
 
-.aboutus-header{
+.aboutus-header {
     /* border: 3px solid yellow; */
     margin-bottom: 30px;
     display: flex;
@@ -268,24 +295,28 @@ span{
     justify-content: center;
     text-align: center;
 }
-.aboutus-header h1{
+
+.aboutus-header h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 81px;
     color: #2E1D03;
 }
-.topic{
+
+.topic {
     /* border: 3px solid tomato; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.bar{
+
+.bar {
     width: 15px;
     height: 2px;
     border: 2px solid #2E1D03;
 }
-.aboutus-header p{
+
+.aboutus-header p {
     font-weight: 400;
     font-size: 14px;
     line-height: 200%;
@@ -293,28 +324,32 @@ span{
     margin-left: 10px;
     letter-spacing: 0.3em;
 }
-.aboutus-content{
+
+.aboutus-content {
     /* border: 3px solid tomato; */
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.bean{
+
+.bean {
     /* border: 3px solid yellow; */
     font-weight: 700;
     font-size: 64px;
     line-height: 140%;
     color: #817B74;
 }
-.aboutbean{
+
+.aboutbean {
     /* border: 3px solid blue; */
     font-weight: 400;
     font-size: 20px;
     line-height: 200%;
     color: #2E1D03;
 }
-.about-button{
+
+.about-button {
     padding: 10px 30px;
     gap: 10px;
     cursor: pointer;
@@ -326,13 +361,15 @@ span{
     border: none;
     margin-top: 20px;
 }
-.about-button p{
+
+.about-button p {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
     color: #FFFFFF;
 }
-.about-button i{
+
+.about-button i {
     width: 34px;
     height: 34px;
     display: flex;
@@ -342,40 +379,47 @@ span{
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
-.aboutus-rightdiv{
+
+.aboutus-rightdiv {
     /* border: 3px solid black; */
     background: url(./images/coffee\ bean\ 1bean.png);
     width: 277.51px;
     height: 415px;
 }
-.aboutus-content2{
+
+.aboutus-content2 {
     /* border: 3px solid black; */
     display: flex;
     justify-content: space-between;
 }
-.aboutus-rightdiv2{
+
+.aboutus-rightdiv2 {
     background: url(./images/coffe\ cup\ saucer\ 1saucer.png);
     width: 492.05px;
     height: 575px;
 }
-.testimonial{
+
+.testimonial {
     /* border: 3px solid green; */
     background: url(./images/coffee\ patter\ 1.png);
     height: 650px;
     padding: 100px 0 0 0;
 }
-.testimonial-content{
+
+.testimonial-content {
     /* border: 3px solid tomato; */
     width: 90%;
     margin: 0 auto;
 }
-.testimonial-content h2{
+
+.testimonial-content h2 {
     font-weight: 600;
     font-size: 64px;
     line-height: 110%;
     color: #2E1D03;
 }
-.comment{
+
+.comment {
     /* border: 3px solid blue; */
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0px 4px 28px rgba(17, 87, 192, 0.05);
@@ -389,7 +433,8 @@ span{
     top: 2730px;
     padding: 30px;
 }
-.comment2{
+
+.comment2 {
     position: absolute;
     /* width: 623.99px; */
     /* height: 215.23px; */
@@ -401,7 +446,8 @@ span{
     border-radius: 15px;
     padding: 30px;
 }
-.comment3{
+
+.comment3 {
     position: absolute;
     padding: 30px;
     /* width: 701.4px; */
@@ -413,14 +459,33 @@ span{
     border-radius: 15px;
     backdrop-filter: blur(20px);
 }
-.comment-head{
+
+.comment-head {
     /* border: 3px solid yellow; */
     display: flex;
+    justify-content: space-between;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
 }
-.pics{
+
+.log {
+    /* border: 3px solid black; */
+    display: flex;
+}
+
+.comma {
+    /* border: 3px solid green; */
+    /* width: 50%; */
+    height: 20px;
+    display: flex;
+    color: #2E1D03;
+    justify-content: flex-end;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.pics {
     /* border: 3px solid black; */
     border-radius: 50px;
     background: url(./images/IMG_0813\ \(1\).JPG);
@@ -429,50 +494,59 @@ span{
     width: 48.1px;
     height: 48.1px;
 }
-.commentator{
+
+.commentator {
+    /* border: 3px solid tomato; */
     margin-left: 10px;
 }
-.commentator h4{
+
+.commentator h4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #03011C;
 }
-.commentator p{
+
+.commentator p {
     font-style: italic;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
     color: #03011C;
 }
-.commentator-message{
+
+.commentator-message {
     /* border: 3px solid brown; */
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
     color: #03011C;
 }
+
 /* About us section ends */
 
 /* Scooter section starts */
 
-.scooter-header{
+.scooter-header {
     padding: 40px 0;
 }
-.scooter-header h1{
+
+.scooter-header h1 {
     font-weight: 700;
     font-size: 64px;
     line-height: 81px;
     color: #2E1D03;
     text-align: center;
 }
-.scooter-topic{
+
+.scooter-topic {
     /* border: 3px solid yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.scooter-topic p{
+
+.scooter-topic p {
     /* border: 3px solid black; */
     font-weight: 400;
     font-size: 14px;
@@ -481,7 +555,8 @@ span{
     color: #2E1D03;
     margin-left: 10px;
 }
-.blog-content{
+
+.blog-content {
     /* border: 3px solid black; */
     display: flex;
     justify-content: center;
@@ -492,7 +567,8 @@ span{
     width: 95%;
     margin: 0 auto 50px auto;
 }
-.blog-card{
+
+.blog-card {
     /* border: 3px solid tomato; */
     border-radius: 20px;
     padding: 20px;
@@ -502,33 +578,39 @@ span{
     border-radius: 20px;
     transition: all 0.7s ease;
 }
-.blog-card:hover{
+
+.blog-card:hover {
     background: #FFFFFF;
 }
-.blog-pics{
+
+.blog-pics {
     /* border: 3px solid green; */
     background: #FFFFFF;
     width: 326.54px;
     height: 200px;
     overflow: hidden;
 }
-.blog-writeup{
+
+.blog-writeup {
     /* border: 3px solid navy; */
     margin: 15px 0 0 0;
 }
-.blog-writeup h3{
+
+.blog-writeup h3 {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
     color: #2E1D03;
 }
-.blog-writeup p{
+
+.blog-writeup p {
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
     color: #2E1D03;
 }
-.blog-button{
+
+.blog-button {
     width: 100%;
     cursor: pointer;
     margin-top: 20px;
@@ -542,18 +624,21 @@ span{
     border: 2px solid #2E1D03;
     transition: all 0.7s ease;
 }
-.blog-button:hover{
+
+.blog-button:hover {
     background: #2E1D03;
     color: #FAF3DD;
 }
-.blog-button p{
+
+.blog-button p {
     font-weight: 500;
     font-size: 16px;
     line-height: 200%;
     /* color: #2E1D03; */
     margin-right: 10px;
 }
-.blog-button i{
+
+.blog-button i {
     width: 25px;
     height: 25px;
     border: 2px solid #2E1D03;
@@ -562,14 +647,16 @@ span{
     align-items: center;
     border-radius: 50px;
 }
+
 /* Scooter section ends */
 
 /* Quick section starts */
-.QuickTour{
+.QuickTour {
     /* border: 3px solid black; */
     background: url(./images/coffee\ patter\ 1.png);
 }
-.quicktour-content{
+
+.quicktour-content {
     /* border: 3px solid tomato; */
     /* height: 400px; */
     width: 90%;
@@ -577,26 +664,30 @@ span{
     display: flex;
     justify-content: space-between;
 }
-.left-content{
+
+.left-content {
     /* border: 3px solid green; */
     width: 45%;
     padding: 100px;
 
 }
-.content{
+
+.content {
     /* border: 3px solid yellow; */
     display: flex;
     margin-top: 35px;
     justify-content: space-between;
 
 }
-.list{
+
+.list {
     /* border: 3px solid navy; */
     display: flex;
     flex-direction: column;
     padding: 15px;
 }
-.list h4{
+
+.list h4 {
     color: #2E1D03;
     font-weight: 550;
     font-size: 22px;
@@ -604,30 +695,35 @@ span{
     /* text-align: center; */
     margin-bottom: 10px;
 }
-.list span{
+
+.list span {
     color: #2E1D03;
     margin: 7px 0;
 
 }
-.right-content{
+
+.right-content {
     /* border: 3px solid blue; */
     text-align: right;
     padding: 100px;
 }
-.right-content h3{
+
+.right-content h3 {
     font-weight: 600;
     font-size: 36px;
     line-height: 140%;
     color: #2E1D03;
 }
-.right-content p{
+
+.right-content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
     color: #2E1D03;
     margin: 60px 0;
 }
-.quicktour-content button{
+
+.quicktour-content button {
     background: #2E1D03;
     color: #FAF3DD;
     display: flex;
@@ -640,7 +736,8 @@ span{
     height: 62px;
     border: none;
 }
-.quicktour-content button i{
+
+.quicktour-content button i {
     border: 2px solid #FAF3DD;
     width: 25px;
     height: 25px;
@@ -649,13 +746,15 @@ span{
     justify-content: center;
     align-items: center;
 }
-.quicktour-content button p{
+
+.quicktour-content button p {
     font-weight: 500;
     font-size: 16px;
     line-height: 200%;
     color: #FAF3DD;
 }
-.footer{
+
+.footer {
     /* border: 3px solid yellow; */
     width: 100%;
     padding: 30px;
